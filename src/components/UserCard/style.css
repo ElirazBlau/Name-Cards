@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px 5px rgba(150, 16, 112, 0.527);
+    border: white solid 1px;
+    width: 25%;
+    height: 300px;
+    gap: 10px;
+  padding: 10px;
+  background-color: rgba(68, 64, 64, 0.591);
+  text-align: center;
+  margin:20px;
+  border-radius: 10px;
+  justify-content: center;
+
+  }
+  
+  h2{
+    font-weight: bold;
+    color: rgb(162, 20, 162);
+  }
+  
+  p {
+    color: rgb(195, 191, 191);
+  }
+  .card img{
+    object-fit: contain;
+    width: 60%;
+    height: 100px;
+    border-radius: 10px;
+
+  }
+  
